@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/form.css" rel="stylesheet">
+    <title>Contact me</title>
+</head>
+<body>
+    <div class="contact">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+            </ul>
+        </nav>        
+        <div>
+            <section>
+                <form action="">
+                    <h1>Contact me now</h1>
+                    <p>Case you want contact me, describe your information for a return. Thanks:)</p>
+                    <fieldset>
+                        <legend>Your contact information</legend>
+                        <label for="name">Your name</label>
+                        <input type="text" id="name" name="name" placeholder="Full Name">
+                        <label for="phone">Phone number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Ex: +55 (12) 3456-789">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="exemplo@lorus.com">
+                    </fieldset>
+                    <fieldset>
+                        <legend>What mode preference to contact?</legend>
+                        <label>
+                            <input class="radio" type="radio" name="contactype" value="msg">
+                            Messenger
+                        </label>
+                        <label>
+                            <input class="radio" type="radio" name="contactype" value="email">
+                            E-mail
+                        </label>
+                        <label>
+                            <input class="radio" type="radio" name="contactype" value="Call">
+                            Call
+                        </label>
+                    </fieldset>
+
+                </form>
+                <button type="submit">Send your contact!</button>
+            </section>
+
+        </div>
+    </div>
+</body>
+</html>

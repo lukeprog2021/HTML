@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+    body {
+        margin: 0;
+        padding: 0 0 1rem;
+        display: flex;
+        flex-flow: column;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        background-color: #F2BE24;
+        color: #57523E;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    header img {
+        flex-basis: 100%;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0.2rem 0;
+        display: block;
+        background-color: #57523E;
+
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0.5rem;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+    }
+
+    nav li {
+        list-style-type: none;
+        flex-basis: 10%;
+    }
+
+    nav a {
+        text-decoration: none;
+        flex-basis: 10%;
+    }
+
+    nav a:hover {
+        color: #D94C1A;
+    }
+
+
+
+    blockquote {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 3rem;
+        font-style: italic;
+        text-align: center;
+        color: #F2BE24;
+        padding: 0.5rem;
+        margin: 1rem;
+        margin-bottom: 0;
+        background-color: #57523E;
+    }
+
+    cite {
+        color: #D7D8C9;
+        font-size: 2rem;
+    }
+
+
+    div {
+        margin: 0 1.5rem 1rem;
+        padding: 1rem;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        background-color: #D7D8C9;
+        border-top: 10px solid #A4A68A;
+        border-bottom: 8px solid #D94C1A;
+
+        
+    }
+
+    #sports section {
+        margin:  0 0.5rem 0;
+        padding: 0.5rem;
+        flex-basis: 33%;
+        border: 3px solid #57523E;
+        background-color: #D7D8C9;
+        border-radius: 15px;
+    }
+
+    #vacantion section {
+        margin: 0 0.5rem 0;
+        padding: 0.5rem;
+        flex-basis: 50%;
+        
+    }
+
+    article {
+        margin: 0 0.5rem 0;
+        padding: 0.8rem;
+        
+        background-color: #A4A68A;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+
+    ul li {
+        flex-basis: 10%;
+    }
+    
+    h1,h2,h3,h4 {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        color: #57523E;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: #F2BE24;
+        font-weight: bold;
+    }
+
+    a:visited {
+        color: #D7D8C9;
+        font-weight: bolder;
+
+    }
+
+    a:hover {
+        color: #D94C1A;
+        text-decoration: underline;
+        text-decoration: none;
+    }
+
+

@@ -1,0 +1,189 @@
+/* my firts CSS*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        background-color: #57523E;
+        color: #57523E;
+        
+    }
+
+    div.home {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        margin: 0 5rem 0;
+        padding: 1rem;
+        background-color: #F2BE24;
+    }
+
+    .prymary{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+    }
+
+    h1, h2, h3 {
+        color: #57523E;
+        margin: 0.5rem 0 0.5rem;
+        
+    }
+
+    h4 {
+        font-style: italic;
+    
+    }
+    blockquote {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 3rem;
+        font-style: italic;
+        text-align: center;
+        color: #D94C1A;
+        padding: 0.5rem;
+        margin: 2rem;
+    }
+
+    blockquote p {
+        margin: 0.5rem;
+        
+    }
+
+    cite {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .bigbold {
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+
+
+    
+    a:link {
+        text-decoration: none;
+        color: #F2BE24;
+        font-weight: bold;
+    }
+
+    a:visited {
+        color: #A4A68A;
+        font-weight: bolder;
+
+    }
+
+    a:hover {
+        color: #D94C1A;
+        text-decoration: underline;
+        text-decoration: none;
+    }
+
+    div p {
+        margin: 1rem;
+    }
+
+    p.child-flex{
+        flex-basis: 10%;
+       
+    }
+
+    nav{
+        margin: 0.5rem 0 0 0;
+        padding: 0.8rem;
+        display: block;
+        background-color: #57523E;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    nav li {
+        font-size: 1rem;
+        list-style-type: none;
+    }
+
+    section:not([class="add"]) {
+        margin: 0;
+        padding: 2rem;
+        background-color: #D7D8C9;
+        border-left: 7px solid #57523E;
+        
+       
+    }
+
+
+    .languagem  {
+        margin: 1rem 0 0 0;
+        padding: 0;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+
+    .languagem li {
+        padding: 0.5rem;
+        text-align: center;
+        flex-basis: 10%;
+        background-color: #57523E;
+        color: #F2BE24;
+        list-style-type: none;
+        font-style: italic;
+        border-radius: 12px;
+        border: 3px groove #D7D8C9;
+        
+    }
+
+    .languagem li:hover{
+        padding: 0.5rem;
+        text-align: center;
+        flex-basis: 10%;
+        color: #57523E;
+        font-weight: bold;
+        list-style-type: none;
+        font-style: italic;
+        background: #fefcea;
+        background: -moz-linear-gradient(top,  #fefcea 0%, #F2BE24 100%);
+        background: -webkit-linear-gradient(top,  #fefcea 0%,#F2BE24 100%);
+        background: linear-gradient(to bottom,  #fefcea 0%,#F2BE24 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F2BE24', endColorstr='#F2BE24',GradientType=0 );
+    }
+
+.flex_video {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex_video li {
+    list-style-type: none;
+    flex-basis: 5%;
+}
+
+.add {
+    margin: 0rem;
+    padding: 0 5rem 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    border-left: 7px solid #57523E;
+    background-color: #D7D8C9;
+    
+}
+
+.add ol {
+    flex-basis: 30%;
+}
